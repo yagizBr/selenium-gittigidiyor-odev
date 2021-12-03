@@ -1,0 +1,182 @@
+2021-12-03 20:03:56,418 INFO  [Log] checkMainPage()BAŞARILI OLDU 
+2021-12-03 20:04:04,830 INFO  [Log] goToLoginPage()BAŞARILI OLDU 
+2021-12-03 20:04:10,845 INFO  [Log] checkSession()BAŞARILI OLDU 
+2021-12-03 20:04:18,889 INFO  [Log] isRandomProductSearched()BAŞARILI OLDU 
+2021-12-03 20:04:39,977 INFO  [Log] isProductSelected()BAŞARILI OLDU 
+2021-12-03 20:04:57,203 INFO  [Log] specificItemSearch()BAŞARILI OLDU 
+2021-12-03 20:05:20,895 INFO  [Log] checkTheCart()BAŞARILI OLDU 
+2021-12-03 20:05:31,211 INFO  [Log] addSecondItemToBasket()BAŞARILI OLDU 
+2021-12-03 20:05:52,106 INFO  [Log] checkFavorites()BAŞARILI OLDU 
+2021-12-03 20:05:53,214 INFO  [Log] openInNewTab()BAŞARILI OLDU 
+2021-12-03 20:06:03,601 INFO  [Log] logOut()BAŞARILI OLDU 
+2021-12-03 20:12:27,084 INFO  [Log] checkMainPage()BAŞARILI OLDU 
+2021-12-03 20:12:28,694 INFO  [Log] goToLoginPage()BAŞARILI OLDU 
+2021-12-03 20:12:31,569 INFO  [Log] checkSession()BAŞARILI OLDU 
+2021-12-03 20:12:34,654 INFO  [Log] isRandomProductSearched()BAŞARILI OLDU 
+2021-12-03 20:12:37,709 INFO  [Log] isProductSelected()BAŞARILI OLDU 
+2021-12-03 20:12:40,766 ERROR [Log] specificItemSearch()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"a[class='sc-1fjiks5-1 cSPLit']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89b14e14bd2d5bfbecd5095654e034da, findElement {using=css selector, value=a[class='sc-1fjiks5-1 cSPLit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63137/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 89b14e14bd2d5bfbecd5095654e034da 
+2021-12-03 20:12:49,800 INFO  [Log] checkTheCart()BAŞARILI OLDU 
+2021-12-03 20:12:54,177 ERROR [Log] addSecondItemToBasket()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"ul[class='clearfix recommendation-products horizontal-slider'] > li:nth-child(5) > div > a[class='gg-ui-btn-default btn-add-to-basket']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89b14e14bd2d5bfbecd5095654e034da, findElement {using=css selector, value=ul[class='clearfix recommendation-products horizontal-slider'] > li:nth-child(5) > div > a[class='gg-ui-btn-default btn-add-to-basket']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63137/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 89b14e14bd2d5bfbecd5095654e034da 
+2021-12-03 20:12:59,188 ERROR [Log] checkFavorites()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-child(3) > td:nth-child(1) > div[class='gg-ui-checkbox-primary robot-watchproducts-product-checkbox']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89b14e14bd2d5bfbecd5095654e034da, findElement {using=css selector, value=tr:nth-child(3) > td:nth-child(1) > div[class='gg-ui-checkbox-primary robot-watchproducts-product-checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63137/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 89b14e14bd2d5bfbecd5095654e034da 
+2021-12-03 20:13:00,181 INFO  [Log] openInNewTab()BAŞARILI OLDU 
+2021-12-03 20:13:01,609 INFO  [Log] logOut()BAŞARILI OLDU 
+2021-12-03 20:19:57,696 INFO  [Log] checkMainPage()BAŞARILI OLDU 
+2021-12-03 20:20:00,789 ERROR [Log] goToLoginPage()HATA! :Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-cy='header-login-button'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ac296fae18d5b972de106fe21fb6b 
+2021-12-03 20:20:07,381 ERROR [Log] checkSession()HATA! :Expected condition failed: waiting for visibility of element located by By.id: L-PasswordField (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ac296fae18d5b972de106fe21fb6b 
+2021-12-03 20:20:10,474 INFO  [Log] isRandomProductSearched()BAŞARILI OLDU 
+2021-12-03 20:20:13,520 INFO  [Log] isProductSelected()BAŞARILI OLDU 
+2021-12-03 20:20:16,550 ERROR [Log] specificItemSearch()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"a[class='sc-1fjiks5-1 cSPLit']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf5ac296fae18d5b972de106fe21fb6b, findElement {using=css selector, value=a[class='sc-1fjiks5-1 cSPLit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ac296fae18d5b972de106fe21fb6b 
+2021-12-03 20:20:28,100 ERROR [Log] checkTheCart()HATA! :Expected condition failed: waiting for visibility of element located by By.cssSelector: select.amount > option:nth-child(2) (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ac296fae18d5b972de106fe21fb6b 
+2021-12-03 20:20:31,142 ERROR [Log] addSecondItemToBasket()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"a[title='Sepeti Düzenle']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf5ac296fae18d5b972de106fe21fb6b, findElement {using=css selector, value=a[title='Sepeti Düzenle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ac296fae18d5b972de106fe21fb6b 
+2021-12-03 20:20:38,728 ERROR [Log] checkFavorites()HATA! :Expected condition failed: waiting for visibility of element located by By.cssSelector: div[title='Hesabım'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ac296fae18d5b972de106fe21fb6b 
+2021-12-03 20:20:39,948 INFO  [Log] openInNewTab()BAŞARILI OLDU 
+2021-12-03 20:20:46,478 ERROR [Log] logOut()HATA! :Expected condition failed: waiting for visibility of element located by By.cssSelector: div[title='Hesabım'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ac296fae18d5b972de106fe21fb6b 
+2021-12-03 20:24:57,091 INFO  [Log] checkMainPage()BAŞARILI OLDU 
+2021-12-03 20:25:01,840 INFO  [Log] goToLoginPage()BAŞARILI OLDU 
+2021-12-03 20:25:06,660 INFO  [Log] checkSession()BAŞARILI OLDU 
+2021-12-03 20:25:09,710 INFO  [Log] isRandomProductSearched()BAŞARILI OLDU 
+2021-12-03 20:25:12,732 INFO  [Log] isProductSelected()BAŞARILI OLDU 
+2021-12-03 20:25:15,819 ERROR [Log] specificItemSearch()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"a[class='sc-1fjiks5-1 cSPLit']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0516ce5c99dab270c26aa37d2ba3c3f9, findElement {using=css selector, value=a[class='sc-1fjiks5-1 cSPLit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56098}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56098/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0516ce5c99dab270c26aa37d2ba3c3f9 
+2021-12-03 20:25:26,066 INFO  [Log] checkTheCart()BAŞARILI OLDU 
+2021-12-03 20:25:30,338 ERROR [Log] addSecondItemToBasket()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"ul[class='clearfix recommendation-products horizontal-slider'] > li:nth-child(5) > div > a[class='gg-ui-btn-default btn-add-to-basket']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0516ce5c99dab270c26aa37d2ba3c3f9, findElement {using=css selector, value=ul[class='clearfix recommendation-products horizontal-slider'] > li:nth-child(5) > div > a[class='gg-ui-btn-default btn-add-to-basket']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56098}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56098/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0516ce5c99dab270c26aa37d2ba3c3f9 
+2021-12-03 20:25:41,441 ERROR [Log] checkFavorites()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-child(3) > td:nth-child(1) > div[class='gg-ui-checkbox-primary robot-watchproducts-product-checkbox']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0516ce5c99dab270c26aa37d2ba3c3f9, findElement {using=css selector, value=tr:nth-child(3) > td:nth-child(1) > div[class='gg-ui-checkbox-primary robot-watchproducts-product-checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56098}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56098/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0516ce5c99dab270c26aa37d2ba3c3f9 
+2021-12-03 20:25:42,561 INFO  [Log] openInNewTab()BAŞARILI OLDU 
+2021-12-03 20:25:46,551 INFO  [Log] logOut()BAŞARILI OLDU 
+2021-12-03 20:29:21,989 INFO  [Log] checkMainPage()BAŞARILI OLDU 
+2021-12-03 20:29:26,759 INFO  [Log] goToLoginPage()BAŞARILI OLDU 
+2021-12-03 20:29:31,679 INFO  [Log] checkSession()BAŞARILI OLDU 
+2021-12-03 20:29:39,714 INFO  [Log] isRandomProductSearched()BAŞARILI OLDU 
+2021-12-03 20:29:58,893 INFO  [Log] isProductSelected()BAŞARILI OLDU 
+2021-12-03 20:30:16,222 INFO  [Log] specificItemSearch()BAŞARILI OLDU 
+2021-12-03 20:30:28,192 INFO  [Log] checkTheCart()BAŞARILI OLDU 
+2021-12-03 20:30:32,714 INFO  [Log] addSecondItemToBasket()BAŞARILI OLDU 
+2021-12-03 20:30:41,574 ERROR [Log] checkFavorites()HATA! :Favorilerden 3. eleman silindi. ==> expected: <true> but was: <false> 
+2021-12-03 20:30:42,556 INFO  [Log] openInNewTab()BAŞARILI OLDU 
+2021-12-03 20:30:48,109 INFO  [Log] logOut()BAŞARILI OLDU 
+2021-12-03 20:35:46,647 INFO  [Log] checkMainPage()BAŞARILI OLDU 
+2021-12-03 20:35:51,855 INFO  [Log] goToLoginPage()BAŞARILI OLDU 
+2021-12-03 20:35:56,674 INFO  [Log] checkSession()BAŞARILI OLDU 
+2021-12-03 20:36:04,713 INFO  [Log] isRandomProductSearched()BAŞARILI OLDU 
+2021-12-03 20:36:23,838 INFO  [Log] isProductSelected()BAŞARILI OLDU 
+2021-12-03 20:36:40,793 INFO  [Log] specificItemSearch()BAŞARILI OLDU 
+2021-12-03 20:36:51,634 INFO  [Log] checkTheCart()BAŞARILI OLDU 
+2021-12-03 20:36:55,784 ERROR [Log] addSecondItemToBasket()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"ul[class='clearfix recommendation-products horizontal-slider'] > li:nth-child(5) > div > a[class='gg-ui-btn-default btn-add-to-basket']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfed78eb0bdb3e89b6030ba207b84053, findElement {using=css selector, value=ul[class='clearfix recommendation-products horizontal-slider'] > li:nth-child(5) > div > a[class='gg-ui-btn-default btn-add-to-basket']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50668/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfed78eb0bdb3e89b6030ba207b84053 
+2021-12-03 20:37:06,817 ERROR [Log] checkFavorites()HATA! :no such element: Unable to locate element: {"method":"css selector","selector":"tr:nth-child(3) > td:nth-child(1) > div[class='gg-ui-checkbox-primary robot-watchproducts-product-checkbox']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-IFNIIBV', ip: '192.168.43.184', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfed78eb0bdb3e89b6030ba207b84053, findElement {using=css selector, value=tr:nth-child(3) > td:nth-child(1) > div[class='gg-ui-checkbox-primary robot-watchproducts-product-checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50668/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfed78eb0bdb3e89b6030ba207b84053 
+2021-12-03 20:37:07,939 INFO  [Log] openInNewTab()BAŞARILI OLDU 
+2021-12-03 20:37:12,304 INFO  [Log] logOut()BAŞARILI OLDU 
+2021-12-03 20:40:28,387 INFO  [Log] checkMainPage()BAŞARILI OLDU 
+2021-12-03 20:40:33,222 INFO  [Log] goToLoginPage()BAŞARILI OLDU 
+2021-12-03 20:40:38,098 INFO  [Log] checkSession()BAŞARILI OLDU 
+2021-12-03 20:40:46,178 INFO  [Log] isRandomProductSearched()BAŞARILI OLDU 
+2021-12-03 20:41:14,580 INFO  [Log] isProductSelected()BAŞARILI OLDU 
+2021-12-03 20:41:34,182 INFO  [Log] specificItemSearch()BAŞARILI OLDU 
+2021-12-03 20:41:44,751 INFO  [Log] checkTheCart()BAŞARILI OLDU 
+2021-12-03 20:41:49,095 INFO  [Log] addSecondItemToBasket()BAŞARILI OLDU 
+2021-12-03 20:41:57,646 INFO  [Log] checkFavorites()BAŞARILI OLDU 
+2021-12-03 20:41:58,632 INFO  [Log] openInNewTab()BAŞARILI OLDU 
+2021-12-03 20:42:02,997 INFO  [Log] logOut()BAŞARILI OLDU 
