@@ -5,8 +5,8 @@ public class LoginPage extends BaseClass{
 
     String loginPageTitle= "Üye Girişi - GittiGidiyor";
     String loginPageUrl="https://www.gittigidiyor.com/uye-girisi?s=1";
-    String email = "ygzbarisir@gmail.com";
-    String pass = "testpassword123";
+    String email = "email";
+    String pass = "password";
 
     By userNameInputLocator = By.id("L-UserNameField");
     By userPasswordInputLocator = By.id("L-PasswordField");
